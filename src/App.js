@@ -25,7 +25,7 @@ export default class App extends Component {
         height={3}
         progress={this.state.progress}
       />
-        <h1>News Monkey-Top Headlines</h1>
+        <h1>News App-Top Headlines</h1>
         <Switch>
         <Route exact path="/"><News setProgress={this.setProgress} key="general"country="in" category="general"/></Route>
         <Route exact path="/business"><News setProgress={this.setProgress} key="business"country="in" category="business"/></Route>
